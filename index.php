@@ -1,18 +1,19 @@
 <html>
 <head>
-<title>Bienvenidos</title>
+<title>Bienvenido</title>
 </head>
 <body>
 <form action="index.php" method="GET">
-    Ingrese nombre del alumno: 
-	<input type="text" name="alumno">
+    Ingrese nombre del alumno: <br/><br/>
+	<input type="text" name="nombre"><br/><br/>
+	<input type="text" name="apellido"><br/><br/>
 	<input type="submit" value="Enviar">
 </form>
 
 Hola 
 <?php 
-if (isset ($_GET['alumno'])){ 
-	echo $_GET['alumno']; 
+if (isset ($_GET['nombre']) && isset ($_GET['nombre'])){ 
+	echo $_GET['nombre']. " " .  $_GET['apellido']; 
 }
 ?>
 <br/>
