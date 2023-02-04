@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Bienvenido</title>
+<title>Bienvenidos</title>
 </head>
 <body>
 <form action="index.php" method="GET">
